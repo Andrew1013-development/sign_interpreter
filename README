@@ -1,0 +1,40 @@
+Step 1: Create a new conda environment 
+
+``conda create -n test_slvr python=3.8``
+
+Step 2: Activate the newly created environment.
+
+``conda activate test_slvr``
+
+Step 3: Install the required libraries with the command:
+
+``pip install -r requirements.txt``
+
+Step 4: Run the main program with the command below:
+
+``python MainGUI.py``
+
+Step 5: The interface of the app is shown below. The prediction results are displayed visually on the video and in the "Result" box. 
+In this version, I am implementing the app with 20 action labels:
+labels = {
+    0: 'book',
+    1: 'chair',
+    2: 'clothes',
+    3: 'computer',
+    4: 'drink',
+    5: 'drum',
+    6: 'family',
+    7: 'football',
+    8: 'go',
+    9: 'hat',
+    10: 'hello',
+    11: 'kiss',
+    12: 'like',
+    13: 'play',
+    14: 'school',
+    15: 'street',
+    16: 'table',
+    17: 'university',
+    18: 'violin',
+    19: 'wall'
+}
